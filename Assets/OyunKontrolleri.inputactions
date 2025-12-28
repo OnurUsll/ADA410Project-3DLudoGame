@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "OyunKontrolleri",
+    "maps": [
+        {
+            "name": "Oyun",
+            "id": "ef06ec20-bdda-499d-8363-f46af1aa5fcf",
+            "actions": [
+                {
+                    "name": "ZarAt",
+                    "type": "Button",
+                    "id": "68984eb9-5cb0-4ada-ae74-81bba082e66a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "204c7ab2-be89-4e62-9891-ab049a063b19",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "Value",
+                    "id": "abbe9b96-5330-4078-abbf-7d7629d856f0",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db1afe5b-809b-48e2-95c4-336e6377764d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ZarAt",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95030946-bb6e-459f-800c-c80a0b13c519",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "efedb79d-538d-46c1-90cf-2c642474cd91",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
